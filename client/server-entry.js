@@ -1,4 +1,4 @@
-import App from './app.jsx'
 import React from 'react'
+import App from './app.jsx'
 
-export default <App/>
+export default <App />
