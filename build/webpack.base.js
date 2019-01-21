@@ -1,6 +1,10 @@
-const path=require('path')
+const path = require('path')
 module.exports = {
   module: {
+    output: {
+      path: path.join(__dirname, '../dist'),
+      publicPath: "/public/"
+    },
     rules: [
       {
         enforce: "pre",

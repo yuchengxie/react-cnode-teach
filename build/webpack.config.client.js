@@ -12,8 +12,6 @@ const config = webpackMerge(baseConfig,{
     },
     output: {
         filename: '[name].[hash].js',
-        path: path.join(__dirname, '../dist'),
-        publicPath: "/public/"
     },
     plugins: [
         new HTMLPlugin({
